@@ -38,7 +38,6 @@ body {
     color: black;
 }
 
-/* Caratteristiche */
 .features {
     display: flex;
     justify-content: space-around;
@@ -69,7 +68,6 @@ body {
     margin-top: 10px;
 }
 
-/* Footer */
 .footer {
     background: #fff;
     padding: 20px;
@@ -77,7 +75,6 @@ body {
     border-top: 1px solid #ddd;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .features {
         flex-direction: column;
