@@ -87,3 +87,25 @@ body {
         margin: 10px;
     }
 }
+
+/* Transizione sulla card */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Transizione sull'icona segnalibro */
+.bi-bookmark {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    color: #888;
+    cursor: pointer;
+}
+
+.bi-bookmark:hover {
+    color: #007bff;
+}
