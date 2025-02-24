@@ -19,6 +19,7 @@ body {
     color: white;
     padding: 60px 20px;
     text-align: center;
+    display: flex;
 }
 .hero h1 {
     font-size: 2.5rem;
